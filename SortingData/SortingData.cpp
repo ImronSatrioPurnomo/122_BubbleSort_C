@@ -48,6 +48,18 @@ void display() {
 	cout << "Element Array yang telah tersusun" << endl;
 	cout << "=======================================" << endl;
 	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl;
 
 	}
+	cout << "jumlah pass = " << n - 1 << endl;
+	cout << endl;
+}
+
+int main() {
+	input();
+	bubbleSortArray();
+	display();
+	system("pause");
+
+	return 0;
 }
